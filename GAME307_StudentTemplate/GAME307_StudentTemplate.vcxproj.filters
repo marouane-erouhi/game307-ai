@@ -16,7 +16,10 @@
       <Filter>Core</Filter>
     </ClCompile>
     <ClCompile Include="GameManager.cpp">
-      <Filter>Core</Filter>
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Managers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -38,7 +41,10 @@
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="GameManager.h">
-      <Filter>Core</Filter>
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Managers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -47,6 +53,9 @@
     </Filter>
     <Filter Include="Core">
       <UniqueIdentifier>{f26277ef-9d21-405d-a5f6-6a2d0289d2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{26edcd33-47f9-4395-8f56-ccdb64a0768a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -162,6 +162,14 @@ void GameManager::handleEvents()
         }
 }
 
+bool GameManager::isDebug() {
+    return debug;
+}
+
+void GameManager::toggleDebug() {
+    debug = !debug;
+}
+
 GameManager::~GameManager() {}
 
 void GameManager::OnDestroy(){

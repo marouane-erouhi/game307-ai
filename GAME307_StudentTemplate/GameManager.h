@@ -26,6 +26,7 @@ private:
     class PlayerBody *player;
     Uint32 changeSceneEventType; // event type number for user defined events
     bool launched = true;
+	bool debug = false;
 
 	void LoadScene(int i);
 	bool ValidateCurrentScene();
@@ -46,6 +47,8 @@ public:
 	void Run();
     void handleEvents();
     
+	bool isDebug();
+	void toggleDebug();
 };
 #endif
 
